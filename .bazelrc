@@ -1,0 +1,3 @@
+#build --enable_bzlmod
+
+build --repo_env=GOPATH=%workspace%/go --repo_env=GOCACHE=%workspace%/go.cache --repo_env=GOMODCACHE=%workspace%/go.mod.cache
