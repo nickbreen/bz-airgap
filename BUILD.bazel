@@ -8,6 +8,23 @@ go_binary(
     ],
 )
 
+go_binary(
+    name = "resolve",
+    srcs = ["resolve.go"],
+    data = [
+        "resolve.bzl",
+        "resolved.bzl",
+    ],
+    deps = [
+        "@go.starlark.net//starlark",
+    ],
+)
+
+sh_binary(
+    name = "fetch",
+    srcs = ["fetch.sh"],
+)
+
 alias(
     name = "go",
     actual = "@go_sdk//:bin/go",
