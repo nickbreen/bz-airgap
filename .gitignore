@@ -5,5 +5,4 @@
 /.ijwb
 /bazel-*-dist.zip
 /bazel.repo.cache
-/*/distdir
 /go

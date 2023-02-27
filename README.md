@@ -1,4 +1,4 @@
-Example of an air-gapped (no internet) go build.
+Example of an air-gapped (no internet) self-hosting go build.
 
 1. Assume that bazel (or bazelisk) is available on the path as `bazel`.
    
@@ -22,10 +22,12 @@ Example of an air-gapped (no internet) go build.
    
 4. Sync everything from `WORKSPACE.bazel` (and `MODULE.bazel` if BZLMOD is enabled) **and** bazel's secret internal externals:  
    ```bash
-   bazel sync  # Downloads about 3.8GB of crap‽
+   bazel sync
+   du -sh bazel.repo.cache
    ```
-   
-5. Resolve then filter out crap we are not interested in on linux-x86_64 with a local jdk:
+   OMG. It downloaded about 3.8GB of crap‽
+
+5. Resolve then prejudicially filter out crap we are not interested in on linux-x86_64 with a local jdk:
    ```bash
    bazel run resolve < resolved.bzl |
           egrep --invert-match '(remotejdk|android|windows|darwin|arm64|s390x)' |
@@ -80,17 +82,17 @@ Example of an air-gapped (no internet) go build.
    > read: connection refused`
 
 10. OK, did `bazel sync` pull those down? Yes, it did. We can change _where_ though; but this time we'll use fetch:
-    ```bash
-    bazel fetch resolve --repo_env=GOMODCACHE=$PWD/go/pkg/mod
-    ```
-    Note: we can't do this in `.bazelrc` as go requires an absolute path, and we need `$PWD` because `%workspace%` is
-    not evaluated for `--repo_env`. We also set `--repo_env=GO_REPOSITORY_USE_HOST_CACHE=1` in `.bazelrc`.
-    
-    _Kia kaha!_ We have `./go/pkg/mod/cache/download` with the downloaded artifacts! 
-    
-    We do have all the expanded go mods too; let's delete them to ensure that they will be unpacked from the cache. 
+   ```bash
+   bazel fetch resolve --repo_env=GOMODCACHE=$PWD/go/pkg/mod
+   ```
+   Note: we can't do this in `.bazelrc` as go requires an absolute path, and we need `$PWD` because `%workspace%` is
+   not evaluated for `--repo_env`. We also set `--repo_env=GO_REPOSITORY_USE_HOST_CACHE=1` in `.bazelrc`.
+   
+   _Kia kaha!_ We have `./go/pkg/mod/cache/download` with the downloaded artifacts! 
+   
+   We do have all the expanded go mods too; let's delete them to ensure that they will be unpacked from the cache. 
 
-    Also, see `./go/pkg/mod/cache/.gitignore`.
+   Also, see `./go/pkg/mod/cache/.gitignore`.
 
 11. Try another jail build.
    ```bash
@@ -98,3 +100,8 @@ Example of an air-gapped (no internet) go build.
    ```
    Hooray!
 
+   It just so happens that the `GOMODCACHE` directory complies with the `GOPROXY` protocol, so we can use it 
+   that way too, either as a `file://` URL or served with a simple HTTP server.
+
+
+   
