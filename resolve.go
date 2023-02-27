@@ -11,7 +11,7 @@ func main() {
 		Name:  "starlark",
 		Print: func(_ *starlark.Thread, msg string) { fmt.Println(msg) },
 	}
-	env, err := starlark.ExecFile(&thread, "resolved.bzl", nil, nil)
+	env, err := starlark.ExecFile(&thread, "/dev/stdin", nil, nil)
 	if err != nil {
 		_, _ = fmt.Fprint(os.Stderr, err)
 		os.Exit(64)

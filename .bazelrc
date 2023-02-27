@@ -1,14 +1,14 @@
 #common --enable_bzlmod
 
 # %workspace% does not work here
-#common --repo_env=GOPATH=%workspace%/go --repo_env=GOCACHE=%workspace%/go.cache --repo_env=GOMODCACHE=%workspace%/go.mod.cache --repo_env=GO_REPOSITORY_USE_HOST_CACHE=1
+#common --repo_env=GOPATH=%workspace%/go
+#common --repo_env=GOMODCACHE=%workspace%/go/pkg/mod
+common --repo_env=GO_REPOSITORY_USE_HOST_CACHE=1
 
+common --repository_cache=bazel.repo.cache
 common --distdir=resolved/distdir --distdir=manual/distdir --distdir=derived/distdir
 common --experimental_repository_disable_download
 
 fetch --noexperimental_repository_disable_download
-fetch --repository_cache=bazel.repo.cache
-common --repository_cache=bazel.repo.cache
-
 sync --noexperimental_repository_disable_download
 sync --experimental_repository_resolved_file=resolved.bzl

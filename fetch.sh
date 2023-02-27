@@ -10,7 +10,7 @@ do
   then
     cp -v $cache/$sum/file $distdir/$filename
   else
-    curl -sSfL --output-dir $distdir --write-out '%{filename_effective} %{url_effective}\n' -o $filename ${urls%% *}
+    curl -fL --output-dir $distdir --write-out '%{filename_effective} %{url_effective}\n' -o $filename ${urls%% *}
     sha256sum --check <<< "$sum  $distdir/$filename"
   fi
 done
