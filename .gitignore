@@ -3,3 +3,5 @@
 /bazel-out
 /bazel-testlogs
 /.ijwb
+/bazel-*-dist.zip
+/bazel.repo.cache

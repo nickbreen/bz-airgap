@@ -2,7 +2,7 @@
 
 set -xeuo pipefail
 
-declare cache=bazel.repo.cache/content_addressable/sha256 distdir=distdir
+declare cache=bazel.repo.cache/content_addressable/sha256 distdir=resolved/distdir
 
 while read sum rule name filename urls
 do

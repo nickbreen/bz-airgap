@@ -3,7 +3,7 @@
 # %workspace% does not work here
 #common --repo_env=GOPATH=%workspace%/go --repo_env=GOCACHE=%workspace%/go.cache --repo_env=GOMODCACHE=%workspace%/go.mod.cache --repo_env=GO_REPOSITORY_USE_HOST_CACHE=1
 
-common --distdir distdir
+common --distdir=resolved/distdir --distdir=manual/distdir --distdir=derived/distdir
 common --experimental_repository_disable_download
 
 fetch --noexperimental_repository_disable_download

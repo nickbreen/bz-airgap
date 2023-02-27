@@ -51,7 +51,7 @@ resolved = [
           "original_rule_class": "local_repository",
           "original_attributes": {
                "name": "bazel_tools",
-               "path": "/home/nick/.cache/bazel/_bazel_nick/install/97c81a3bdd984debe0ff1b26c2dc04e0/embedded_tools"
+               "path": "/home/breenn/.cache/bazel/_bazel_breenn/install/e75fbf4c4128950b3c67e64f48699455/embedded_tools"
           },
           "native": "local_repository(name = \"bazel_tools\", path = __embedded_dir__ + \"/\" + \"embedded_tools\")"
      },
@@ -81,7 +81,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository io_bazel_stardoc instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:3:13: in <toplevel>\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository io_bazel_stardoc instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:3:13: in <toplevel>\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "io_bazel_stardoc",
                "urls": [
@@ -126,7 +126,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository bazel_skylib instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:14:21: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_stardoc/setup.bzl:25:28: in stardoc_repositories\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_stardoc/setup.bzl:21:18: in _include_if_not_defined\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository bazel_skylib instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:14:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_stardoc/setup.bzl:25:28: in stardoc_repositories\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_stardoc/setup.bzl:21:18: in _include_if_not_defined\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "bazel_skylib",
                "generator_name": "bazel_skylib",
@@ -174,7 +174,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository io_bazel_rules_go instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:16:13: in <toplevel>\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository io_bazel_rules_go instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:16:13: in <toplevel>\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "io_bazel_rules_go",
                "urls": [
@@ -219,7 +219,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository rules_java instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:14:21: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_stardoc/setup.bzl:34:28: in stardoc_repositories\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_stardoc/setup.bzl:21:18: in _include_if_not_defined\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository rules_java instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:14:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_stardoc/setup.bzl:34:28: in stardoc_repositories\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_stardoc/setup.bzl:21:18: in _include_if_not_defined\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "rules_java",
                "generator_name": "rules_java",
@@ -267,7 +267,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository bazel_gazelle instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:39:13: in <toplevel>\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository bazel_gazelle instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:39:13: in <toplevel>\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "bazel_gazelle",
                "urls": [
@@ -312,7 +312,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository com_github_gogo_protobuf instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:197:12: in go_rules_dependencies\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository com_github_gogo_protobuf instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:197:12: in go_rules_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "com_github_gogo_protobuf",
                "generator_name": "com_github_gogo_protobuf",
@@ -369,7 +369,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository com_github_golang_mock instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:269:11: in go_rules_dependencies\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository com_github_golang_mock instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:269:11: in go_rules_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "com_github_golang_mock",
                "generator_name": "com_github_golang_mock",
@@ -426,7 +426,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository com_github_golang_protobuf instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:163:12: in go_rules_dependencies\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository com_github_golang_protobuf instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:163:12: in go_rules_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "com_github_golang_protobuf",
                "generator_name": "com_github_golang_protobuf",
@@ -483,7 +483,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository com_github_mwitkow_go_proto_validators instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:183:12: in go_rules_dependencies\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository com_github_mwitkow_go_proto_validators instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:183:12: in go_rules_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "com_github_mwitkow_go_proto_validators",
                "generator_name": "com_github_mwitkow_go_proto_validators",
@@ -532,7 +532,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository go_googleapis instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:247:12: in go_rules_dependencies\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository go_googleapis instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:247:12: in go_rules_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "go_googleapis",
                "generator_name": "go_googleapis",
@@ -595,7 +595,7 @@ resolved = [
      },
      {
           "original_rule_class": "@io_bazel_rules_go//go/private:sdk.bzl%_go_download_sdk",
-          "definition_information": "Repository go_sdk instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:29:16: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/sdk.bzl:216:21: in go_download_sdk\nRepository rule _go_download_sdk defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/sdk.bzl:134:35: in <toplevel>\n",
+          "definition_information": "Repository go_sdk instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:29:16: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/sdk.bzl:216:21: in go_download_sdk\nRepository rule _go_download_sdk defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/sdk.bzl:134:35: in <toplevel>\n",
           "original_attributes": {
                "name": "go_sdk",
                "generator_name": "go_sdk",
@@ -635,7 +635,7 @@ resolved = [
      },
      {
           "original_rule_class": "@io_bazel_rules_go//go/private:sdk.bzl%_go_toolchains",
-          "definition_information": "Repository go_sdk_toolchains instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:29:16: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/sdk.bzl:217:19: in go_download_sdk\nRepository rule _go_toolchains defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/sdk.bzl:204:33: in <toplevel>\n",
+          "definition_information": "Repository go_sdk_toolchains instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:29:16: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/sdk.bzl:217:19: in go_download_sdk\nRepository rule _go_toolchains defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/sdk.bzl:204:33: in <toplevel>\n",
           "original_attributes": {
                "name": "go_sdk_toolchains",
                "generator_name": "go_sdk_toolchains",
@@ -667,7 +667,7 @@ resolved = [
      },
      {
           "original_rule_class": "@io_bazel_rules_go//proto:gogo.bzl%gogo_special_proto",
-          "definition_information": "Repository gogo_special_proto instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:214:12: in go_rules_dependencies\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule gogo_special_proto defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/proto/gogo.bzl:36:37: in <toplevel>\n",
+          "definition_information": "Repository gogo_special_proto instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:214:12: in go_rules_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule gogo_special_proto defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/proto/gogo.bzl:36:37: in <toplevel>\n",
           "original_attributes": {
                "name": "gogo_special_proto",
                "generator_name": "gogo_special_proto",
@@ -689,7 +689,7 @@ resolved = [
      },
      {
           "original_rule_class": "@io_bazel_rules_go//go/private:nogo.bzl%go_register_nogo",
-          "definition_information": "Repository io_bazel_rules_nogo instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:289:12: in go_rules_dependencies\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule go_register_nogo defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/nogo.bzl:31:35: in <toplevel>\n",
+          "definition_information": "Repository io_bazel_rules_nogo instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:289:12: in go_rules_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule go_register_nogo defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/nogo.bzl:31:35: in <toplevel>\n",
           "original_attributes": {
                "name": "io_bazel_rules_nogo",
                "generator_name": "io_bazel_rules_nogo",
@@ -713,7 +713,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository org_golang_google_genproto instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:224:12: in go_rules_dependencies\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository org_golang_google_genproto instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:224:12: in go_rules_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "org_golang_google_genproto",
                "generator_name": "org_golang_google_genproto",
@@ -770,7 +770,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository org_golang_google_protobuf instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:140:12: in go_rules_dependencies\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository org_golang_google_protobuf instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:140:12: in go_rules_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "org_golang_google_protobuf",
                "generator_name": "org_golang_google_protobuf",
@@ -827,7 +827,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository org_golang_x_sys instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:86:12: in go_rules_dependencies\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository org_golang_x_sys instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:86:12: in go_rules_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "org_golang_x_sys",
                "generator_name": "org_golang_x_sys",
@@ -884,7 +884,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository org_golang_x_tools instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:64:12: in go_rules_dependencies\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository org_golang_x_tools instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:64:12: in go_rules_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "org_golang_x_tools",
                "generator_name": "org_golang_x_tools",
@@ -943,7 +943,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository org_golang_x_xerrors instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:105:12: in go_rules_dependencies\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository org_golang_x_xerrors instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:27:22: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:105:12: in go_rules_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/io_bazel_rules_go/go/private/repositories.bzl:297:18: in _maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "org_golang_x_xerrors",
                "generator_name": "org_golang_x_xerrors",
@@ -1000,7 +1000,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_gazelle//internal:go_repository_cache.bzl%go_repository_cache",
-          "definition_information": "Repository bazel_gazelle_go_repository_cache instantiated at:\n  /home/nick/src/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_gazelle/deps.bzl:72:28: in gazelle_dependencies\nRepository rule go_repository_cache defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_gazelle/internal/go_repository_cache.bzl:71:38: in <toplevel>\n",
+          "definition_information": "Repository bazel_gazelle_go_repository_cache instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:72:28: in gazelle_dependencies\nRepository rule go_repository_cache defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository_cache.bzl:71:38: in <toplevel>\n",
           "original_attributes": {
                "name": "bazel_gazelle_go_repository_cache",
                "generator_name": "bazel_gazelle_go_repository_cache",
@@ -1024,13 +1024,953 @@ resolved = [
                          },
                          "go_env": {}
                     },
-                    "output_tree_hash": "088c44ed88d887f660ba14cbdb577762d47efd80f8c01d71639fcbe189975df1"
+                    "output_tree_hash": "fd66618c43b83242cdd6ef238ddf84512b7e4bccbd3f99d4c9a0433ff59600ad"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository_config.bzl%go_repository_config",
+          "definition_information": "Repository bazel_gazelle_go_repository_config instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:83:25: in gazelle_dependencies\nRepository rule go_repository_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository_config.bzl:69:39: in <toplevel>\n",
+          "original_attributes": {
+               "name": "bazel_gazelle_go_repository_config",
+               "generator_name": "bazel_gazelle_go_repository_config",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "config": "//:WORKSPACE.bazel"
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository_config.bzl%go_repository_config",
+                    "attributes": {
+                         "name": "bazel_gazelle_go_repository_config",
+                         "generator_name": "bazel_gazelle_go_repository_config",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "config": "//:WORKSPACE.bazel"
+                    },
+                    "output_tree_hash": "c907ea8b0286b35ffbed8cedf5d79a5ba2a43d3c8e6397da136b48b57a4af1b9"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository_tools.bzl%go_repository_tools",
+          "definition_information": "Repository bazel_gazelle_go_repository_tools instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:78:24: in gazelle_dependencies\nRepository rule go_repository_tools defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository_tools.bzl:117:38: in <toplevel>\n",
+          "original_attributes": {
+               "name": "bazel_gazelle_go_repository_tools",
+               "generator_name": "bazel_gazelle_go_repository_tools",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "go_cache": "@bazel_gazelle_go_repository_cache//:go.env"
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository_tools.bzl%go_repository_tools",
+                    "attributes": {
+                         "name": "bazel_gazelle_go_repository_tools",
+                         "generator_name": "bazel_gazelle_go_repository_tools",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "go_cache": "@bazel_gazelle_go_repository_cache//:go.env"
+                    },
+                    "output_tree_hash": "7070cd337ce3f4054fc58cabb6f0784ba080e081978f069f2ab3371ecb102a2c"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository co_honnef_go_tools instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:87:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "co_honnef_go_tools",
+               "generator_name": "co_honnef_go_tools",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "honnef.co/go/tools",
+               "version": "v0.0.0-20190523083050-ea95bdfd59fc",
+               "sum": "h1:/hemPrYIhOhy8zYrNj+069zDB68us2sMGsfkFJO0iZs="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "co_honnef_go_tools",
+                         "generator_name": "co_honnef_go_tools",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "honnef.co/go/tools",
+                         "version": "v0.0.0-20190523083050-ea95bdfd59fc",
+                         "sum": "h1:/hemPrYIhOhy8zYrNj+069zDB68us2sMGsfkFJO0iZs="
+                    },
+                    "output_tree_hash": "5b7d34a768f2a3c39d08bf204f77d95f14f0832fd577fa9b2403f8f4cda5b7ae"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_bazelbuild_buildtools instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:94:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_bazelbuild_buildtools",
+               "generator_name": "com_github_bazelbuild_buildtools",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/bazelbuild/buildtools",
+               "version": "v0.0.0-20230111132423-06e8e2436a75",
+               "sum": "h1:DraHsDqTYhf6w1369EEdFyA5hjJnGX88xNJRv1+20E0=",
+               "build_naming_convention": "go_default_library"
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_bazelbuild_buildtools",
+                         "generator_name": "com_github_bazelbuild_buildtools",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/bazelbuild/buildtools",
+                         "version": "v0.0.0-20230111132423-06e8e2436a75",
+                         "sum": "h1:DraHsDqTYhf6w1369EEdFyA5hjJnGX88xNJRv1+20E0=",
+                         "build_naming_convention": "go_default_library"
+                    },
+                    "output_tree_hash": "a7b521de7dac1f4d8a98f5592f655c702a45824534079a3ef12fc4f102e37ca0"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_bazelbuild_rules_go instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:102:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_bazelbuild_rules_go",
+               "generator_name": "com_github_bazelbuild_rules_go",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/bazelbuild/rules_go",
+               "version": "v0.37.0",
+               "sum": "h1:vbnESGv/t2WgGEbXatwbXAS95dTx93Lv6Uh5QkVF13s="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_bazelbuild_rules_go",
+                         "generator_name": "com_github_bazelbuild_rules_go",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/bazelbuild/rules_go",
+                         "version": "v0.37.0",
+                         "sum": "h1:vbnESGv/t2WgGEbXatwbXAS95dTx93Lv6Uh5QkVF13s="
+                    },
+                    "output_tree_hash": "11f6bb86e1f8f944287f9bc0e1b0878a5a24a955d32e98cac4fb88e48bed630a"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_bmatcuk_doublestar_v4 instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:109:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_bmatcuk_doublestar_v4",
+               "generator_name": "com_github_bmatcuk_doublestar_v4",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/bmatcuk/doublestar/v4",
+               "version": "v4.6.0",
+               "sum": "h1:HTuxyug8GyFbRkrffIpzNCSK4luc0TY3wzXvzIZhEXc="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_bmatcuk_doublestar_v4",
+                         "generator_name": "com_github_bmatcuk_doublestar_v4",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/bmatcuk/doublestar/v4",
+                         "version": "v4.6.0",
+                         "sum": "h1:HTuxyug8GyFbRkrffIpzNCSK4luc0TY3wzXvzIZhEXc="
+                    },
+                    "output_tree_hash": "759593357fcc284f9876d25879158d6d7c274333fafe59364004f672493484e2"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_burntsushi_toml instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:116:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_burntsushi_toml",
+               "generator_name": "com_github_burntsushi_toml",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/BurntSushi/toml",
+               "version": "v0.3.1",
+               "sum": "h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_burntsushi_toml",
+                         "generator_name": "com_github_burntsushi_toml",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/BurntSushi/toml",
+                         "version": "v0.3.1",
+                         "sum": "h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ="
+                    },
+                    "output_tree_hash": "07b72a9aea2d3746fc9f9a0ce99bca929947d381be913ee7593a8898491f2803"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_census_instrumentation_opencensus_proto instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:123:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_census_instrumentation_opencensus_proto",
+               "generator_name": "com_github_census_instrumentation_opencensus_proto",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/census-instrumentation/opencensus-proto",
+               "version": "v0.2.1",
+               "sum": "h1:glEXhBS5PSLLv4IXzLA5yPRVX4bilULVyxxbrfOtDAk="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_census_instrumentation_opencensus_proto",
+                         "generator_name": "com_github_census_instrumentation_opencensus_proto",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/census-instrumentation/opencensus-proto",
+                         "version": "v0.2.1",
+                         "sum": "h1:glEXhBS5PSLLv4IXzLA5yPRVX4bilULVyxxbrfOtDAk="
+                    },
+                    "output_tree_hash": "e957c4f74663b0b4ea0c60bc75dcba9c0ca25a21921e43c2b58e1d9c6b3ef8e7"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_chzyer_logex instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:130:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_chzyer_logex",
+               "generator_name": "com_github_chzyer_logex",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/chzyer/logex",
+               "version": "v1.1.10",
+               "sum": "h1:Swpa1K6QvQznwJRcfTfQJmTE72DqScAa40E+fbHEXEE="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_chzyer_logex",
+                         "generator_name": "com_github_chzyer_logex",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/chzyer/logex",
+                         "version": "v1.1.10",
+                         "sum": "h1:Swpa1K6QvQznwJRcfTfQJmTE72DqScAa40E+fbHEXEE="
+                    },
+                    "output_tree_hash": "6779f6727c6e334fb586a879423bd1e3bc97d0281e669c335723c8c87551e116"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_chzyer_readline instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:137:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_chzyer_readline",
+               "generator_name": "com_github_chzyer_readline",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/chzyer/readline",
+               "version": "v0.0.0-20180603132655-2972be24d48e",
+               "sum": "h1:fY5BOSpyZCqRo5OhCuC+XN+r/bBCmeuuJtjz+bCNIf8="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_chzyer_readline",
+                         "generator_name": "com_github_chzyer_readline",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/chzyer/readline",
+                         "version": "v0.0.0-20180603132655-2972be24d48e",
+                         "sum": "h1:fY5BOSpyZCqRo5OhCuC+XN+r/bBCmeuuJtjz+bCNIf8="
+                    },
+                    "output_tree_hash": "3b77ce3ffb504ce1510682fd934d471ecf2e9a66055e01e8e4e529662836aec2"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_chzyer_test instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:144:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_chzyer_test",
+               "generator_name": "com_github_chzyer_test",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/chzyer/test",
+               "version": "v0.0.0-20180213035817-a1ea475d72b1",
+               "sum": "h1:q763qf9huN11kDQavWsoZXJNW3xEE4JJyHa5Q25/sd8="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_chzyer_test",
+                         "generator_name": "com_github_chzyer_test",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/chzyer/test",
+                         "version": "v0.0.0-20180213035817-a1ea475d72b1",
+                         "sum": "h1:q763qf9huN11kDQavWsoZXJNW3xEE4JJyHa5Q25/sd8="
+                    },
+                    "output_tree_hash": "828f725c83fe059d2c44648d645a40f94c7ad63c397e2c2a5b68fb3477b622e1"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_client9_misspell instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:151:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_client9_misspell",
+               "generator_name": "com_github_client9_misspell",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/client9/misspell",
+               "version": "v0.3.4",
+               "sum": "h1:ta993UF76GwbvJcIo3Y68y/M3WxlpEHPWIGDkJYwzJI="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_client9_misspell",
+                         "generator_name": "com_github_client9_misspell",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/client9/misspell",
+                         "version": "v0.3.4",
+                         "sum": "h1:ta993UF76GwbvJcIo3Y68y/M3WxlpEHPWIGDkJYwzJI="
+                    },
+                    "output_tree_hash": "a149cc4096828ce15beabb56b69a6ef05edc8ab085365f49f337be6b5f1c7ea0"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_envoyproxy_go_control_plane instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:158:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_envoyproxy_go_control_plane",
+               "generator_name": "com_github_envoyproxy_go_control_plane",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/envoyproxy/go-control-plane",
+               "version": "v0.9.1-0.20191026205805-5f8ba28d4473",
+               "sum": "h1:4cmBvAEBNJaGARUEs3/suWRyfyBfhf7I60WBZq+bv2w="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_envoyproxy_go_control_plane",
+                         "generator_name": "com_github_envoyproxy_go_control_plane",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/envoyproxy/go-control-plane",
+                         "version": "v0.9.1-0.20191026205805-5f8ba28d4473",
+                         "sum": "h1:4cmBvAEBNJaGARUEs3/suWRyfyBfhf7I60WBZq+bv2w="
+                    },
+                    "output_tree_hash": "f060d5a123059c96bea45b2d68007e3f5e1a283d6140b666236c90bbbbe062e5"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_envoyproxy_protoc_gen_validate instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:165:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_envoyproxy_protoc_gen_validate",
+               "generator_name": "com_github_envoyproxy_protoc_gen_validate",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/envoyproxy/protoc-gen-validate",
+               "version": "v0.1.0",
+               "sum": "h1:EQciDnbrYxy13PgWoY8AqoxGiPrpgBZ1R8UNe3ddc+A="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_envoyproxy_protoc_gen_validate",
+                         "generator_name": "com_github_envoyproxy_protoc_gen_validate",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/envoyproxy/protoc-gen-validate",
+                         "version": "v0.1.0",
+                         "sum": "h1:EQciDnbrYxy13PgWoY8AqoxGiPrpgBZ1R8UNe3ddc+A="
+                    },
+                    "output_tree_hash": "cfab2ce47451707b73c018f5235a8571831ac242749cf853f0287f242ee13f08"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_fsnotify_fsnotify instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:172:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_fsnotify_fsnotify",
+               "generator_name": "com_github_fsnotify_fsnotify",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/fsnotify/fsnotify",
+               "version": "v1.6.0",
+               "sum": "h1:n+5WquG0fcWoWp6xPWfHdbskMCQaFnG6PfBrh1Ky4HY="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_fsnotify_fsnotify",
+                         "generator_name": "com_github_fsnotify_fsnotify",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/fsnotify/fsnotify",
+                         "version": "v1.6.0",
+                         "sum": "h1:n+5WquG0fcWoWp6xPWfHdbskMCQaFnG6PfBrh1Ky4HY="
+                    },
+                    "output_tree_hash": "1d15cffaf078ba493d9b942995d56ca1fa541059bd639b7298a79e531182956d"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_golang_glog instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:179:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_golang_glog",
+               "generator_name": "com_github_golang_glog",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/golang/glog",
+               "version": "v0.0.0-20160126235308-23def4e6c14b",
+               "sum": "h1:VKtxabqXZkF25pY9ekfRL6a582T4P37/31XEstQ5p58="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_golang_glog",
+                         "generator_name": "com_github_golang_glog",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/golang/glog",
+                         "version": "v0.0.0-20160126235308-23def4e6c14b",
+                         "sum": "h1:VKtxabqXZkF25pY9ekfRL6a582T4P37/31XEstQ5p58="
+                    },
+                    "output_tree_hash": "d849b1bfeb791801680c447c410cc04105955e4a0356072e4497c036b9540b69"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_google_go_cmp instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:200:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_google_go_cmp",
+               "generator_name": "com_github_google_go_cmp",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/google/go-cmp",
+               "version": "v0.5.9",
+               "sum": "h1:O2Tfq5qg4qc4AmwVlvv0oLiVAGB7enBSJ2x2DqQFi38="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_google_go_cmp",
+                         "generator_name": "com_github_google_go_cmp",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/google/go-cmp",
+                         "version": "v0.5.9",
+                         "sum": "h1:O2Tfq5qg4qc4AmwVlvv0oLiVAGB7enBSJ2x2DqQFi38="
+                    },
+                    "output_tree_hash": "6516f9ae5821f792c862a1e2f312313a428fcdec0e0c20d097442e5e0ceec675"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_pelletier_go_toml instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:207:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_pelletier_go_toml",
+               "generator_name": "com_github_pelletier_go_toml",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/pelletier/go-toml",
+               "version": "v1.9.5",
+               "sum": "h1:4yBQzkHv+7BHq2PQUZF3Mx0IYxG7LsP222s7Agd3ve8="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_pelletier_go_toml",
+                         "generator_name": "com_github_pelletier_go_toml",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/pelletier/go-toml",
+                         "version": "v1.9.5",
+                         "sum": "h1:4yBQzkHv+7BHq2PQUZF3Mx0IYxG7LsP222s7Agd3ve8="
+                    },
+                    "output_tree_hash": "666adc3c1645380b3e1755ef550ef485edc44930314f39f19f79ab7ce1410ef0"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_pmezard_go_difflib instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:214:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_pmezard_go_difflib",
+               "generator_name": "com_github_pmezard_go_difflib",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/pmezard/go-difflib",
+               "version": "v1.0.0",
+               "sum": "h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_pmezard_go_difflib",
+                         "generator_name": "com_github_pmezard_go_difflib",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/pmezard/go-difflib",
+                         "version": "v1.0.0",
+                         "sum": "h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM="
+                    },
+                    "output_tree_hash": "a59369dd2c2dea2c8915fb800b9e51bb277a9a72d97d938da48fbdc6310272a0"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_prometheus_client_model instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:221:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_prometheus_client_model",
+               "generator_name": "com_github_prometheus_client_model",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/prometheus/client_model",
+               "version": "v0.0.0-20190812154241-14fe0d1b01d4",
+               "sum": "h1:gQz4mCbXsO+nc9n1hCxHcGA3Zx3Eo+UHZoInFGUIXNM="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_prometheus_client_model",
+                         "generator_name": "com_github_prometheus_client_model",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/prometheus/client_model",
+                         "version": "v0.0.0-20190812154241-14fe0d1b01d4",
+                         "sum": "h1:gQz4mCbXsO+nc9n1hCxHcGA3Zx3Eo+UHZoInFGUIXNM="
+                    },
+                    "output_tree_hash": "b012333e75acffd40eb080bc5e4f7289f753c9fe69d5427ac866a32e35b8cfc9"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_github_yuin_goldmark instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:228:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_github_yuin_goldmark",
+               "generator_name": "com_github_yuin_goldmark",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "github.com/yuin/goldmark",
+               "version": "v1.4.13",
+               "sum": "h1:fVcFKWvrslecOb/tg+Cc05dkeYx540o0FuFt3nUVDoE="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_github_yuin_goldmark",
+                         "generator_name": "com_github_yuin_goldmark",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "github.com/yuin/goldmark",
+                         "version": "v1.4.13",
+                         "sum": "h1:fVcFKWvrslecOb/tg+Cc05dkeYx540o0FuFt3nUVDoE="
+                    },
+                    "output_tree_hash": "8b53c17571aaf3b42affc76927676389ac0989ce2a0c0bf318b3abe3ccb9a4b4"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository com_google_cloud_go instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:235:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "com_google_cloud_go",
+               "generator_name": "com_google_cloud_go",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "cloud.google.com/go",
+               "version": "v0.26.0",
+               "sum": "h1:e0WKqKTd5BnrG8aKH3J3h+QvEIQtSUcf2n5UZ5ZgLtQ="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "com_google_cloud_go",
+                         "generator_name": "com_google_cloud_go",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "cloud.google.com/go",
+                         "version": "v0.26.0",
+                         "sum": "h1:e0WKqKTd5BnrG8aKH3J3h+QvEIQtSUcf2n5UZ5ZgLtQ="
+                    },
+                    "output_tree_hash": "cbc49f705729a543dede164b71696d73c9d156d4853bd5a1b8143a645ea8f904"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository go.starlark.net instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:52:14: in <toplevel>\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "go.starlark.net",
+               "importpath": "go.starlark.net",
+               "version": "v0.0.0-20230224151120-c52844e64a10",
+               "sum": "h1:lVljOiU1EFbXp5KnE9TBYNoV4zHQxkr4g9QbR9U6e04="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "go.starlark.net",
+                         "importpath": "go.starlark.net",
+                         "version": "v0.0.0-20230224151120-c52844e64a10",
+                         "sum": "h1:lVljOiU1EFbXp5KnE9TBYNoV4zHQxkr4g9QbR9U6e04="
+                    },
+                    "output_tree_hash": "f243535335cce3d263b7dfa2f080551a97f8b21c686aac1abe5d47eba610db01"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository net_starlark_go instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:242:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "net_starlark_go",
+               "generator_name": "net_starlark_go",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "go.starlark.net",
+               "version": "v0.0.0-20210223155950-e043a3d3c984",
+               "sum": "h1:xwwDQW5We85NaTk2APgoN9202w/l0DVGp+GZMfsrh7s="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "net_starlark_go",
+                         "generator_name": "net_starlark_go",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "go.starlark.net",
+                         "version": "v0.0.0-20210223155950-e043a3d3c984",
+                         "sum": "h1:xwwDQW5We85NaTk2APgoN9202w/l0DVGp+GZMfsrh7s="
+                    },
+                    "output_tree_hash": "dc22e405b49d22755aa320857c04df231b5166ed469ac3780c53d61787cb843b"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository org_golang_google_appengine instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:249:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "org_golang_google_appengine",
+               "generator_name": "org_golang_google_appengine",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "google.golang.org/appengine",
+               "version": "v1.4.0",
+               "sum": "h1:/wp5JvzpHIxhs/dumFmF7BXTf3Z+dd4uXta4kVyO508="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "org_golang_google_appengine",
+                         "generator_name": "org_golang_google_appengine",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "google.golang.org/appengine",
+                         "version": "v1.4.0",
+                         "sum": "h1:/wp5JvzpHIxhs/dumFmF7BXTf3Z+dd4uXta4kVyO508="
+                    },
+                    "output_tree_hash": "2e6bb262dd137808440fee7210da8a9786cd2b9e8caaf9a8346f41658a8799a0"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository org_golang_google_grpc instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:263:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "org_golang_google_grpc",
+               "generator_name": "org_golang_google_grpc",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "google.golang.org/grpc",
+               "version": "v1.50.0",
+               "sum": "h1:fPVVDxY9w++VjTZsYvXWqEf9Rqar/e+9zYfxKK+W+YU="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "org_golang_google_grpc",
+                         "generator_name": "org_golang_google_grpc",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "google.golang.org/grpc",
+                         "version": "v1.50.0",
+                         "sum": "h1:fPVVDxY9w++VjTZsYvXWqEf9Rqar/e+9zYfxKK+W+YU="
+                    },
+                    "output_tree_hash": "c412e402c0028ed6769675b1672bfce0fc7a4dd219f9115984f11636933fb330"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository org_golang_x_crypto instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:277:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "org_golang_x_crypto",
+               "generator_name": "org_golang_x_crypto",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "golang.org/x/crypto",
+               "version": "v0.0.0-20190308221718-c2843e01d9a2",
+               "sum": "h1:VklqNMn3ovrHsnt90PveolxSbWFaJdECFbxSq0Mqo2M="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "org_golang_x_crypto",
+                         "generator_name": "org_golang_x_crypto",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "golang.org/x/crypto",
+                         "version": "v0.0.0-20190308221718-c2843e01d9a2",
+                         "sum": "h1:VklqNMn3ovrHsnt90PveolxSbWFaJdECFbxSq0Mqo2M="
+                    },
+                    "output_tree_hash": "9c8038b3d4042c8e170018ff2e85f3a1750403855813c51307cc0bc102b25f5f"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository org_golang_x_exp instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:284:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "org_golang_x_exp",
+               "generator_name": "org_golang_x_exp",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "golang.org/x/exp",
+               "version": "v0.0.0-20190121172915-509febef88a4",
+               "sum": "h1:c2HOrn5iMezYjSlGPncknSEr/8x5LELb/ilJbXi9DEA="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "org_golang_x_exp",
+                         "generator_name": "org_golang_x_exp",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "golang.org/x/exp",
+                         "version": "v0.0.0-20190121172915-509febef88a4",
+                         "sum": "h1:c2HOrn5iMezYjSlGPncknSEr/8x5LELb/ilJbXi9DEA="
+                    },
+                    "output_tree_hash": "7b880f94a5d79f30b3916669151c2a4a7d8465e59086f99a815b1010ad910459"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository org_golang_x_lint instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:291:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "org_golang_x_lint",
+               "generator_name": "org_golang_x_lint",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "golang.org/x/lint",
+               "version": "v0.0.0-20190313153728-d0100b6bd8b3",
+               "sum": "h1:XQyxROzUlZH+WIQwySDgnISgOivlhjIEwaQaJEJrrN0="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "org_golang_x_lint",
+                         "generator_name": "org_golang_x_lint",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "golang.org/x/lint",
+                         "version": "v0.0.0-20190313153728-d0100b6bd8b3",
+                         "sum": "h1:XQyxROzUlZH+WIQwySDgnISgOivlhjIEwaQaJEJrrN0="
+                    },
+                    "output_tree_hash": "e2169c16658f8f0de6f4ababbe8b4928a011ddb82c8cc731511a0daaca3cd13f"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository org_golang_x_mod instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:298:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "org_golang_x_mod",
+               "generator_name": "org_golang_x_mod",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "golang.org/x/mod",
+               "version": "v0.7.0",
+               "sum": "h1:LapD9S96VoQRhi/GrNTqeBJFrUjs5UHCAtTlgwA5oZA="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "org_golang_x_mod",
+                         "generator_name": "org_golang_x_mod",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "golang.org/x/mod",
+                         "version": "v0.7.0",
+                         "sum": "h1:LapD9S96VoQRhi/GrNTqeBJFrUjs5UHCAtTlgwA5oZA="
+                    },
+                    "output_tree_hash": "3792e63da483478b525b611f9eb95add024d15a3441544ed5fe6aa2ead2e6fa9"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository org_golang_x_net instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:305:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "org_golang_x_net",
+               "generator_name": "org_golang_x_net",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "golang.org/x/net",
+               "version": "v0.5.0",
+               "sum": "h1:GyT4nK/YDHSqa1c4753ouYCDajOYKTja9Xb/OHtgvSw="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "org_golang_x_net",
+                         "generator_name": "org_golang_x_net",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "golang.org/x/net",
+                         "version": "v0.5.0",
+                         "sum": "h1:GyT4nK/YDHSqa1c4753ouYCDajOYKTja9Xb/OHtgvSw="
+                    },
+                    "output_tree_hash": "0218ea5dae62aa5aa4ac7e07f42ac0a1c36e1ced6808109028ab2d3016c27a53"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository org_golang_x_oauth2 instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:312:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "org_golang_x_oauth2",
+               "generator_name": "org_golang_x_oauth2",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "golang.org/x/oauth2",
+               "version": "v0.0.0-20180821212333-d2e6202438be",
+               "sum": "h1:vEDujvNQGv4jgYKudGeI/+DAX4Jffq6hpD55MmoEvKs="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "org_golang_x_oauth2",
+                         "generator_name": "org_golang_x_oauth2",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "golang.org/x/oauth2",
+                         "version": "v0.0.0-20180821212333-d2e6202438be",
+                         "sum": "h1:vEDujvNQGv4jgYKudGeI/+DAX4Jffq6hpD55MmoEvKs="
+                    },
+                    "output_tree_hash": "97d5207b20cdf323cee8c1be5db276c5c8cff9ac3a760a4686f80c00bfcbc8ad"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository org_golang_x_sync instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:319:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "org_golang_x_sync",
+               "generator_name": "org_golang_x_sync",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "golang.org/x/sync",
+               "version": "v0.1.0",
+               "sum": "h1:wsuoTGHzEhffawBOhz5CYhcrV4IdKZbEyZjBMuTp12o="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "org_golang_x_sync",
+                         "generator_name": "org_golang_x_sync",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "golang.org/x/sync",
+                         "version": "v0.1.0",
+                         "sum": "h1:wsuoTGHzEhffawBOhz5CYhcrV4IdKZbEyZjBMuTp12o="
+                    },
+                    "output_tree_hash": "5e18e5925504eee11f97b5c81466e5fb489bf410da92c2925d47ba5d18edddbd"
+               }
+          ]
+     },
+     {
+          "original_rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+          "definition_information": "Repository org_golang_x_text instantiated at:\n  /home/breenn/src/nickbreen/bz-airgap/WORKSPACE.bazel:50:21: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:333:11: in gazelle_dependencies\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/deps.bzl:357:18: in _maybe\nRepository rule go_repository defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_gazelle/internal/go_repository.bzl:296:32: in <toplevel>\n",
+          "original_attributes": {
+               "name": "org_golang_x_text",
+               "generator_name": "org_golang_x_text",
+               "generator_function": "gazelle_dependencies",
+               "generator_location": None,
+               "importpath": "golang.org/x/text",
+               "version": "v0.3.3",
+               "sum": "h1:cokOdA+Jmi5PJGXLlLllQSgYigAEfHXJAERHVMaCc2k="
+          },
+          "repositories": [
+               {
+                    "rule_class": "@bazel_gazelle//internal:go_repository.bzl%go_repository",
+                    "attributes": {
+                         "name": "org_golang_x_text",
+                         "generator_name": "org_golang_x_text",
+                         "generator_function": "gazelle_dependencies",
+                         "generator_location": None,
+                         "importpath": "golang.org/x/text",
+                         "version": "v0.3.3",
+                         "sum": "h1:cokOdA+Jmi5PJGXLlLllQSgYigAEfHXJAERHVMaCc2k="
+                    },
+                    "output_tree_hash": "6d4ffa9c432a601b251864262f3f89854841c0706af6d9163945dca850ced464"
                }
           ]
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remote_coverage_tools instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:4:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remote_coverage_tools instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:4:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remote_coverage_tools",
                "generator_name": "remote_coverage_tools",
@@ -1076,13 +2016,13 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:local_java_repository.bzl%_local_java_repository_rule",
-          "definition_information": "Repository local_jdk instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:31:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/local_java_repository.bzl:223:32: in local_java_repository\nRepository rule _local_java_repository_rule defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/local_java_repository.bzl:194:46: in <toplevel>\n",
+          "definition_information": "Repository local_jdk instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:31:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/local_java_repository.bzl:223:32: in local_java_repository\nRepository rule _local_java_repository_rule defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/local_java_repository.bzl:194:46: in <toplevel>\n",
           "original_attributes": {
                "name": "local_jdk",
                "generator_name": "local_jdk",
                "generator_function": "maybe",
                "generator_location": None,
-               "java_home": "/usr/lib/jvm/java-11-openjdk-amd64",
+               "java_home": "/home/breenn/src/lmax/buck-all/opt/jdk11",
                "version": "",
                "build_file": "@bazel_tools//tools/jdk:jdk.BUILD"
           },
@@ -1094,17 +2034,17 @@ resolved = [
                          "generator_name": "local_jdk",
                          "generator_function": "maybe",
                          "generator_location": None,
-                         "java_home": "/usr/lib/jvm/java-11-openjdk-amd64",
+                         "java_home": "/home/breenn/src/lmax/buck-all/opt/jdk11",
                          "version": "",
                          "build_file": "@bazel_tools//tools/jdk:jdk.BUILD"
                     },
-                    "output_tree_hash": "4d121175744261dc30f643fb5993b18449b3ee93d49cecbc2879fa583d56ce1a"
+                    "output_tree_hash": "980c674e6b06b0272e5acd55e07f14f0982b11f89fe2c1b6a18340cac60179e4"
                }
           ]
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remote_java_tools instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:363:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remote_java_tools instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:363:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remote_java_tools",
                "generator_name": "remote_java_tools",
@@ -1152,7 +2092,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remote_java_tools_darwin instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:393:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remote_java_tools_darwin instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:393:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remote_java_tools_darwin",
                "generator_name": "remote_java_tools_darwin",
@@ -1200,7 +2140,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remote_java_tools_linux instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:373:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remote_java_tools_linux instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:373:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remote_java_tools_linux",
                "generator_name": "remote_java_tools_linux",
@@ -1248,7 +2188,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remote_java_tools_windows instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:383:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remote_java_tools_windows instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:383:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remote_java_tools_windows",
                "generator_name": "remote_java_tools_windows",
@@ -1296,7 +2236,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk11_linux instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:45:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_linux instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:45:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_linux",
                "generator_name": "remotejdk11_linux",
@@ -1347,7 +2287,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk11_linux_aarch64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:61:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_linux_aarch64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:61:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_linux_aarch64",
                "generator_name": "remotejdk11_linux_aarch64",
@@ -1398,7 +2338,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk11_linux_aarch64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:61:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_linux_aarch64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:61:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_linux_aarch64_toolchain_config_repo",
                "generator_name": "remotejdk11_linux_aarch64_toolchain_config_repo",
@@ -1422,7 +2362,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk11_linux_ppc64le instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:77:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_linux_ppc64le instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:77:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_linux_ppc64le",
                "generator_name": "remotejdk11_linux_ppc64le",
@@ -1473,7 +2413,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk11_linux_ppc64le_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:77:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_linux_ppc64le_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:77:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_linux_ppc64le_toolchain_config_repo",
                "generator_name": "remotejdk11_linux_ppc64le_toolchain_config_repo",
@@ -1497,7 +2437,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk11_linux_s390x instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:93:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_linux_s390x instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:93:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_linux_s390x",
                "generator_name": "remotejdk11_linux_s390x",
@@ -1548,7 +2488,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk11_linux_s390x_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:93:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_linux_s390x_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:93:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_linux_s390x_toolchain_config_repo",
                "generator_name": "remotejdk11_linux_s390x_toolchain_config_repo",
@@ -1572,7 +2512,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk11_linux_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:45:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_linux_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:45:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_linux_toolchain_config_repo",
                "generator_name": "remotejdk11_linux_toolchain_config_repo",
@@ -1596,7 +2536,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk11_macos instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:109:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_macos instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:109:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_macos",
                "generator_name": "remotejdk11_macos",
@@ -1647,7 +2587,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk11_macos_aarch64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:125:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_macos_aarch64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:125:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_macos_aarch64",
                "generator_name": "remotejdk11_macos_aarch64",
@@ -1698,7 +2638,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk11_macos_aarch64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:125:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_macos_aarch64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:125:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_macos_aarch64_toolchain_config_repo",
                "generator_name": "remotejdk11_macos_aarch64_toolchain_config_repo",
@@ -1722,7 +2662,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk11_macos_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:109:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_macos_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:109:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_macos_toolchain_config_repo",
                "generator_name": "remotejdk11_macos_toolchain_config_repo",
@@ -1746,7 +2686,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk11_win instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:141:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_win instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:141:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_win",
                "generator_name": "remotejdk11_win",
@@ -1797,7 +2737,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk11_win_arm64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:157:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_win_arm64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:157:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_win_arm64",
                "generator_name": "remotejdk11_win_arm64",
@@ -1846,7 +2786,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk11_win_arm64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:157:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_win_arm64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:157:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_win_arm64_toolchain_config_repo",
                "generator_name": "remotejdk11_win_arm64_toolchain_config_repo",
@@ -1870,7 +2810,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk11_win_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:141:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk11_win_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:141:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk11_win_toolchain_config_repo",
                "generator_name": "remotejdk11_win_toolchain_config_repo",
@@ -1894,7 +2834,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk17_linux instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:173:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk17_linux instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:173:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk17_linux",
                "generator_name": "remotejdk17_linux",
@@ -1945,7 +2885,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk17_linux_aarch64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:189:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk17_linux_aarch64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:189:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk17_linux_aarch64",
                "generator_name": "remotejdk17_linux_aarch64",
@@ -1996,7 +2936,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk17_linux_aarch64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:189:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk17_linux_aarch64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:189:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk17_linux_aarch64_toolchain_config_repo",
                "generator_name": "remotejdk17_linux_aarch64_toolchain_config_repo",
@@ -2020,7 +2960,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk17_linux_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:173:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk17_linux_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:173:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk17_linux_toolchain_config_repo",
                "generator_name": "remotejdk17_linux_toolchain_config_repo",
@@ -2044,7 +2984,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk17_macos instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:205:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk17_macos instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:205:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk17_macos",
                "generator_name": "remotejdk17_macos",
@@ -2095,7 +3035,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk17_macos_aarch64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:221:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk17_macos_aarch64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:221:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk17_macos_aarch64",
                "generator_name": "remotejdk17_macos_aarch64",
@@ -2146,7 +3086,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk17_macos_aarch64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:221:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk17_macos_aarch64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:221:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk17_macos_aarch64_toolchain_config_repo",
                "generator_name": "remotejdk17_macos_aarch64_toolchain_config_repo",
@@ -2170,7 +3110,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk17_macos_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:205:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk17_macos_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:205:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk17_macos_toolchain_config_repo",
                "generator_name": "remotejdk17_macos_toolchain_config_repo",
@@ -2194,7 +3134,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk17_win instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:237:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk17_win instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:237:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk17_win",
                "generator_name": "remotejdk17_win",
@@ -2245,7 +3185,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk17_win_arm64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:252:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk17_win_arm64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:252:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk17_win_arm64",
                "generator_name": "remotejdk17_win_arm64",
@@ -2296,7 +3236,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk17_win_arm64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:252:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk17_win_arm64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:252:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk17_win_arm64_toolchain_config_repo",
                "generator_name": "remotejdk17_win_arm64_toolchain_config_repo",
@@ -2320,7 +3260,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk17_win_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:237:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk17_win_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:237:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk17_win_toolchain_config_repo",
                "generator_name": "remotejdk17_win_toolchain_config_repo",
@@ -2344,7 +3284,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk18_linux instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:268:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk18_linux instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:268:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk18_linux",
                "generator_name": "remotejdk18_linux",
@@ -2395,7 +3335,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk18_linux_aarch64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:284:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk18_linux_aarch64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:284:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk18_linux_aarch64",
                "generator_name": "remotejdk18_linux_aarch64",
@@ -2446,7 +3386,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk18_linux_aarch64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:284:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk18_linux_aarch64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:284:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk18_linux_aarch64_toolchain_config_repo",
                "generator_name": "remotejdk18_linux_aarch64_toolchain_config_repo",
@@ -2470,7 +3410,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk18_linux_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:268:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk18_linux_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:268:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk18_linux_toolchain_config_repo",
                "generator_name": "remotejdk18_linux_toolchain_config_repo",
@@ -2494,7 +3434,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk18_macos instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:300:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk18_macos instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:300:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk18_macos",
                "generator_name": "remotejdk18_macos",
@@ -2545,7 +3485,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk18_macos_aarch64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:316:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk18_macos_aarch64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:316:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk18_macos_aarch64",
                "generator_name": "remotejdk18_macos_aarch64",
@@ -2596,7 +3536,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk18_macos_aarch64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:316:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk18_macos_aarch64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:316:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk18_macos_aarch64_toolchain_config_repo",
                "generator_name": "remotejdk18_macos_aarch64_toolchain_config_repo",
@@ -2620,7 +3560,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk18_macos_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:300:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk18_macos_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:300:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk18_macos_toolchain_config_repo",
                "generator_name": "remotejdk18_macos_toolchain_config_repo",
@@ -2644,7 +3584,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk18_win instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:332:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk18_win instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:332:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk18_win",
                "generator_name": "remotejdk18_win",
@@ -2695,7 +3635,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository remotejdk18_win_arm64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:348:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository remotejdk18_win_arm64 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:348:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:48:17: in remote_java_repository\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk18_win_arm64",
                "generator_name": "remotejdk18_win_arm64",
@@ -2746,7 +3686,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk18_win_arm64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:348:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk18_win_arm64_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:348:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk18_win_arm64_toolchain_config_repo",
                "generator_name": "remotejdk18_win_arm64_toolchain_config_repo",
@@ -2770,7 +3710,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/jdk:remote_java_repository.bzl%_toolchain_config",
-          "definition_information": "Repository remotejdk18_win_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:332:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
+          "definition_information": "Repository remotejdk18_win_toolchain_config_repo instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:332:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:53:22: in remote_java_repository\nRepository rule _toolchain_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/jdk/remote_java_repository.bzl:26:36: in <toplevel>\n",
           "original_attributes": {
                "name": "remotejdk18_win_toolchain_config_repo",
                "generator_name": "remotejdk18_win_toolchain_config_repo",
@@ -2794,7 +3734,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository rules_cc instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:414:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository rules_cc instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:414:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "rules_cc",
                "generator_name": "rules_cc",
@@ -2840,7 +3780,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository rules_proto instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:425:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository rules_proto instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:425:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "rules_proto",
                "generator_name": "rules_proto",
@@ -2889,7 +3829,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_jar",
-          "definition_information": "Repository android_gmaven_r8 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:460:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_jar defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:530:27: in <toplevel>\n",
+          "definition_information": "Repository android_gmaven_r8 instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:460:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_jar defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:530:27: in <toplevel>\n",
           "original_attributes": {
                "name": "android_gmaven_r8",
                "generator_name": "android_gmaven_r8",
@@ -2912,13 +3852,13 @@ resolved = [
                          "downloaded_file_name": "downloaded.jar",
                          "name": "android_gmaven_r8"
                     },
-                    "output_tree_hash": "18e5699d659b2f5327c36de75ad058b272bf03c0aba76c9ea268b23072cfaaca"
+                    "output_tree_hash": "3bb2a6bac3c177c4c5ffd0013f71929fec15bb076a1f255eab550fe5af05f35a"
                }
           ]
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository android_tools instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:452:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository android_tools instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:452:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "android_tools",
                "generator_name": "android_tools",
@@ -2969,13 +3909,13 @@ resolved = [
           "original_rule_class": "local_repository",
           "original_attributes": {
                "name": "platforms",
-               "path": "/home/nick/.cache/bazel/_bazel_nick/install/97c81a3bdd984debe0ff1b26c2dc04e0/platforms"
+               "path": "/home/breenn/.cache/bazel/_bazel_breenn/install/e75fbf4c4128950b3c67e64f48699455/platforms"
           },
           "native": "local_repository(name = \"platforms\", path = __embedded_dir__ + \"/\" + \"platforms\")"
      },
      {
           "original_rule_class": "@bazel_tools//tools/cpp:cc_configure.bzl%cc_autoconf",
-          "definition_information": "Repository local_config_cc instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:509:13: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/cpp/cc_configure.bzl:183:16: in cc_configure\nRepository rule cc_autoconf defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/cpp/cc_configure.bzl:143:30: in <toplevel>\n",
+          "definition_information": "Repository local_config_cc instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:509:13: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/cpp/cc_configure.bzl:183:16: in cc_configure\nRepository rule cc_autoconf defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/cpp/cc_configure.bzl:143:30: in <toplevel>\n",
           "original_attributes": {
                "name": "local_config_cc",
                "generator_name": "local_config_cc",
@@ -2991,13 +3931,13 @@ resolved = [
                          "generator_function": "cc_configure",
                          "generator_location": None
                     },
-                    "output_tree_hash": "36d471d158454cbf2b0f5f4bd21919324793edf25668839a1570d4c81d524b79"
+                    "output_tree_hash": "0a9481da521c37fb10173a5dfe22275774e6aa99f315bd38f7a4a1b6999e6c49"
                }
           ]
      },
      {
           "original_rule_class": "@bazel_tools//tools/cpp:cc_configure.bzl%cc_autoconf_toolchains",
-          "definition_information": "Repository local_config_cc_toolchains instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:509:13: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/cpp/cc_configure.bzl:182:27: in cc_configure\nRepository rule cc_autoconf_toolchains defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/cpp/cc_configure.bzl:77:41: in <toplevel>\n",
+          "definition_information": "Repository local_config_cc_toolchains instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:509:13: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/cpp/cc_configure.bzl:182:27: in cc_configure\nRepository rule cc_autoconf_toolchains defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/cpp/cc_configure.bzl:77:41: in <toplevel>\n",
           "original_attributes": {
                "name": "local_config_cc_toolchains",
                "generator_name": "local_config_cc_toolchains",
@@ -3019,7 +3959,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/osx:xcode_configure.bzl%xcode_autoconf",
-          "definition_information": "Repository local_config_xcode instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:512:16: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/osx/xcode_configure.bzl:293:19: in xcode_configure\nRepository rule xcode_autoconf defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/osx/xcode_configure.bzl:282:33: in <toplevel>\n",
+          "definition_information": "Repository local_config_xcode instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:512:16: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/osx/xcode_configure.bzl:293:19: in xcode_configure\nRepository rule xcode_autoconf defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/osx/xcode_configure.bzl:282:33: in <toplevel>\n",
           "original_attributes": {
                "name": "local_config_xcode",
                "generator_name": "local_config_xcode",
@@ -3043,7 +3983,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/sh:sh_configure.bzl%sh_config",
-          "definition_information": "Repository local_config_sh instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:515:13: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/sh/sh_configure.bzl:83:14: in sh_configure\nRepository rule sh_config defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/sh/sh_configure.bzl:72:28: in <toplevel>\n",
+          "definition_information": "Repository local_config_sh instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:515:13: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/sh/sh_configure.bzl:83:14: in sh_configure\nRepository rule sh_config defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/sh/sh_configure.bzl:72:28: in <toplevel>\n",
           "original_attributes": {
                "name": "local_config_sh",
                "generator_name": "local_config_sh",
@@ -3065,7 +4005,7 @@ resolved = [
      },
      {
           "original_rule_class": "@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
-          "definition_information": "Repository rules_license instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:519:6: in <toplevel>\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/nick/.cache/bazel/_bazel_nick/dab28818a9fc4276939e7bc035d8c13c/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
+          "definition_information": "Repository rules_license instantiated at:\n  /DEFAULT.WORKSPACE.SUFFIX:519:6: in <toplevel>\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/utils.bzl:233:18: in maybe\nRepository rule http_archive defined at:\n  /home/breenn/.cache/bazel/_bazel_breenn/704de8e3ed36567466de62ee7d90d32b/external/bazel_tools/tools/build_defs/repo/http.bzl:372:31: in <toplevel>\n",
           "original_attributes": {
                "name": "rules_license",
                "generator_name": "rules_license",
